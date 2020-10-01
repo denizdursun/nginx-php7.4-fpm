@@ -29,7 +29,7 @@ curl
 COPY config/nginx.conf /etc/nginx/nginx.conf
 COPY config/conf.d/default.conf /etc/nginx/conf.d/default.conf
 
-# PHP-FPM
+# Php-Fpm
 COPY config/www.conf /etc/php/7.4/fpm/pool.d/www.conf
 COPY config/php.ini /etc/php/7.4/fpm/conf.d/custom.ini
 
